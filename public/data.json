@@ -1,0 +1,134 @@
+[
+    {
+        "id": 4,
+        "image": "https://i.ibb.co/xCBr59R/Health.png",
+        "title": "Support Pediatric Healthcare",
+        "category": "health",
+        "cat_bg_color": "#F9D5E5",
+        "card_bg_color": "#FCE7F3",
+        "text_color": "#F48FB1",
+        "description": "Help improve healthcare for children by supporting pediatric hospitals and clinics.",
+        "price": 420
+    },
+    {
+        "id": 8,
+        "image": "https://i.ibb.co/93DbgD1/Education.png",
+        "title": "Emergency Food Relief",
+        "category": "food",
+        "cat_bg_color": "#FFE0B2",
+        "card_bg_color": "#FFF3E0",
+        "text_color": "#FFB74D",
+        "description": "Provide emergency food relief to families facing immediate hunger crises.",
+        "price": 880
+    },
+    {
+        "id": 10,
+        "image": "https://i.ibb.co/xCBr59R/Health.png",
+        "title": "Medical Research Advancements",
+        "category": "health",
+        "cat_bg_color": "#F9D5E5",
+        "card_bg_color": "#FCE7F3",
+        "text_color": "#F48FB1",
+        "description": "Contribute to medical research projects aimed at finding breakthroughs and cures.",
+        "price": 1020
+    },
+    {
+        "id": 1,
+        "image": "https://i.ibb.co/xCBr59R/Health.png",
+        "title": "Donate for Medical Supplies",
+        "category": "health",
+        "cat_bg_color": "#F9D5E5",
+        "card_bg_color": "#FCE7F3",
+        "text_color": "#F48FB1",
+        "description": "Your donation will help provide essential medical supplies to those in need.",
+        "price": 120
+    },
+    {
+        "id": 7,
+        "image": "https://i.ibb.co/xCBr59R/Health.png",
+        "title": "Healthcare for Vulnerable Communities",
+        "category": "health",
+        "cat_bg_color": "#F9D5E5",
+        "card_bg_color": "#FCE7F3",
+        "text_color": "#F48FB1",
+        "description": "Support healthcare initiatives for vulnerable and underserved communities.",
+        "price": 750
+    },
+    {
+        "id": 2,
+        "image": "https://i.ibb.co/93DbgD1/Education.png",
+        "title": "Support a Local Food Bank",
+        "category": "food",
+        "cat_bg_color": "#FFE0B2",
+        "card_bg_color": "#FFF3E0",
+        "text_color": "#FFB74D",
+        "description": "Contribute to the fight against hunger in your community by supporting a local food bank.",
+        "price": 250
+    },
+    {
+        "id": 12,
+        "image": "https://i.ibb.co/GV4Rcxp/Food.png",
+        "title": "Digital Learning for All",
+        "category": "education",
+        "cat_bg_color": "#B3E5FC",
+        "card_bg_color": "#E1F5FE",
+        "text_color": "#4FC3F7",
+        "description": "Support digital learning initiatives to make education accessible to everyone.",
+        "price": 1200
+    },
+    {
+        "id": 9,
+        "image": "https://i.ibb.co/GV4Rcxp/Food.png",
+        "title": "Scholarships for Higher Education",
+        "category": "education",
+        "cat_bg_color": "#B3E5FC",
+        "card_bg_color": "#E1F5FE",
+        "text_color": "#4FC3F7",
+        "description": "Invest in the future by funding scholarships for higher education and advanced studies.",
+        "price": 950
+    },
+    {
+        "id": 5,
+        "image": "https://i.ibb.co/93DbgD1/Education.png",
+        "title": "Nutritious School Meals",
+        "category": "food",
+        "cat_bg_color": "#FFE0B2",
+        "card_bg_color": "#FFF3E0",
+        "text_color": "#FFB74D",
+        "description": "Provide school children with nutritious meals to support their growth and learning.",
+        "price": 550
+    },
+    {
+        "id": 3,
+        "image": "https://i.ibb.co/GV4Rcxp/Food.png",
+        "title": "Educational Scholarships",
+        "category": "education",
+        "cat_bg_color": "#B3E5FC",
+        "card_bg_color": "#E1F5FE",
+        "text_color": "#4FC3F7",
+        "description": "Empower the next generation by funding educational scholarships for deserving students.",
+        "price": 350
+    },
+    {
+        "id": 11,
+        "image": "https://i.ibb.co/93DbgD1/Education.png",
+        "title": "Support Sustainable Farming",
+        "category": "food",
+        "cat_bg_color": "#FFE0B2",
+        "card_bg_color": "#FFF3E0",
+        "text_color": "#FFB74D",
+        "description": "Promote sustainable farming practices to ensure a resilient food supply for all.",
+        "price": 1150
+    },
+    {
+        "id": 6,
+        "image": "https://i.ibb.co/GV4Rcxp/Food.png",
+        "title": "Support Online Education",
+        "category": "education",
+        "cat_bg_color": "#B3E5FC",
+        "card_bg_color": "#E1F5FE",
+        "text_color": "#4FC3F7",
+        "description": "Enable access to quality education through online resources and platforms.",
+        "price": 680
+    }
+]
