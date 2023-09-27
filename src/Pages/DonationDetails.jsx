@@ -24,14 +24,11 @@ const DonationDetails = () => {
 
 
     const handleDonation = () => {
-        // Check if local storage already has data
         const existingData = JSON.parse(localStorage.getItem("donationData")) || [];
 
-        // Check if the data with the same ID is already stored
         const isDataStored = existingData.some((data) => data.id === id);
 
         if (!isDataStored) {
-            // Create a new object to store the card data
             const cardData = {
                 id: id,
                 title: title,
@@ -44,13 +41,10 @@ const DonationDetails = () => {
                 description: description,
             };
 
-            // Add the new card data to the existing data
             existingData.push(cardData);
 
-            // Store the updated data back in local storage
             localStorage.setItem("donationData", JSON.stringify(existingData));
 
-            // console.log("Donation data stored:", cardData);
             toast.success('Donation completed')
 
             setIsDonationStored(true);
@@ -61,7 +55,7 @@ const DonationDetails = () => {
     return (
         <div className="container grid w-full mx-auto">
 
-            <div className=" w-full h-[75vh] shadow-xl lg:rounded-xl  card  bg-base-100 ">
+            <div className="w-full shadow-xl  lg:rounded-xl card bg-base-100">
                 <figure className="w-full rounded-xl"><img className="object-fill w-full " src={image} alt="" /></figure>
                 <div className="absolute bottom-0 justify-start block w-full p-4 lg:rounded-b-xl md:p-8 bg-black/50 card-actions">
                     <button onClick={handleDonation} style={{ backgroundColor: text_color }} className="block px-3 py-2 text-xs font-bold text-white rounded-lg md:px-10 md:py-4 lg:text-2xl">Donate ${price}</button>

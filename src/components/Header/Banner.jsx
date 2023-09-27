@@ -2,8 +2,8 @@
 const Banner = () => {
     return (
         <>
-            <div className="container min-h-screen mx-auto my-5 hero" style={{ backgroundImage: 'url(https://i.ibb.co/jLG2bsC/Clothing.png)', borderRadius: "" }}>
-                <div className="hero-overlay bg-opacity-60"></div>
+            <div className="container h-[30vh] mx-auto my-3 rounded-xl hero" style={{ backgroundImage: 'url(https://i.ibb.co/jLG2bsC/Clothing.png)' }}>
+                <div className="hero-overlay bg-opacity-60 rounded-xl"></div>
                 <div className="text-center hero-content text-neutral-content">
                     <div className="max-w-md">
                         <h1 className="mb-5 text-5xl font-bold">Lets help for the better society</h1>

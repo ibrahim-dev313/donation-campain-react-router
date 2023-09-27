@@ -1,5 +1,5 @@
 import { useLoaderData } from 'react-router-dom';
-import { Cell, Pie, PieChart, ResponsiveContainer, Tooltip } from 'recharts';
+import { Cell, Pie, PieChart, ResponsiveContainer } from 'recharts';
 
 const Stats = () => {
     const donations = useLoaderData().length;
@@ -10,8 +10,9 @@ const Stats = () => {
     const notDonatedPercentage = 100 - donatedPercentage;
 
     const data = [
-        { name: 'Donated', value: donatedPercentage },
-        { name: 'Not Donated', value: notDonatedPercentage },
+        { name: 'Total Donation', value: notDonatedPercentage },
+
+        { name: 'Your Donation', value: donatedPercentage },
     ];
 
     const COLORS = ['#FF444A', '#00C49F'];
@@ -46,10 +47,9 @@ const Stats = () => {
                             <Cell key={`cell-${index}`} fill={COLORS[index % COLORS.length]} />
                         ))}
                     </Pie>
-                    <Tooltip />
                 </PieChart>
             </ResponsiveContainer>
-            <div className="flex justify-center mt-4 space-x-4 border">
+            <div className="flex justify-center mt-4 space-x-4 ">
                 {data.map((entry, index) => (
                     <div key={`legend-${index}`} className="flex items-center">
                         <span className="w-4 h-4 mr-2" style={{ backgroundColor: COLORS[index % COLORS.length] }}></span>
