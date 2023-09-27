@@ -5,6 +5,7 @@ import { useLoaderData, useParams } from "react-router-dom";
 const DonationDetails = () => {
 
     const [donation, setDonation] = useState();
+    // eslint-disable-next-line no-unused-vars
     const [isDonationStored, setIsDonationStored] = useState(false);
 
 
