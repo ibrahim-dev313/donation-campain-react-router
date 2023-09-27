@@ -3,7 +3,7 @@ import { Link, NavLink } from 'react-router-dom';
 const Navbar = () => {
     return (
         <>
-            <div className="navbar bg-base-100">
+            <div className="container mx-auto navbar bg-base-100">
                 <div className="navbar-start">
                     <div className="dropdown">
                         <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -16,12 +16,12 @@ const Navbar = () => {
                     </div>
                     <Link className='w-36' to="/"><img src="https://i.ibb.co/ypqTH2N/Logo.png" alt="" /></Link>
                 </div>
-                <div className="hidden navbar-end lg:flex">
+                <div className="hidden font-semibold navbar-end lg:flex">
                     <ul className="px-1 menu menu-horizontal">
                         <NavLink
                             to="/"
                             className={({ isActive, isPending }) =>
-                                isPending ? "pending p-5" : isActive ? "active p-5 bg-red-300 rounded" : " p-5"
+                                isPending ? "pending p-5" : isActive ? "active p-5 border-b-4 border-red-500" : " p-5"
                             }
                         >
                             Home
@@ -29,7 +29,7 @@ const Navbar = () => {
                         <NavLink
                             to="/donations"
                             className={({ isActive, isPending }) =>
-                                isPending ? "pending p-5" : isActive ? "p-5 bg-red-300 rounded" : " p-5"
+                                isPending ? "pending p-5" : isActive ? "p-5 border-b-4 border-red-500" : " p-5"
                             }
                         >
                             Donations
@@ -37,7 +37,7 @@ const Navbar = () => {
                         <NavLink
                             to="/stats"
                             className={({ isActive, isPending }) =>
-                                isPending ? "pending p-5" : isActive ? "active p-5 bg-red-300 rounded" : " p-5"
+                                isPending ? "pending p-5" : isActive ? "active p-5 border-b-4 border-red-500" : " p-5"
                             }
                         >
                             Stats

@@ -1,5 +1,5 @@
 import { createBrowserRouter } from "react-router-dom";
-import Donation from "../Pages/Donation";
+import DonationDetails from "../Pages/DonationDetails";
 import Donations from "../Pages/Donations";
 import ErrorPage from "../Pages/ErrorPage";
 import Home from "../Pages/Home";
@@ -28,7 +28,7 @@ const customRoute = createBrowserRouter([
             },
             {
                 path: "/donation/:id",
-                element:<Donation></Donation>,
+                element:<DonationDetails></DonationDetails>,
                 loader: ()=>fetch('/data.json')
             },
             
